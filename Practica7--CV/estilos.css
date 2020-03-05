@@ -1,0 +1,73 @@
+@font-face {
+  font-family: roboto_bold;
+  src: url('Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: Tangerine_Bold;
+  src: url('Tangerine_Bold.ttf');
+}
+@font-face {
+  font-family: internet;
+  src: url('ostrich-sans/ostrich-regular.ttf');
+}
+.caja{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#foto{
+  justify-self: center;
+}
+.texto{
+  text-align: left;
+  font-family: roboto_bold;
+  font-size: 25px;
+}
+span{
+  color: gray;
+  font-size: 18px;
+}
+.redes img{
+  cursor: pointer;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 520px;
+}
+
+.demo-card-square>.mdl-card__title {
+  color: #fff;
+  background:
+    url('foto.png') bottom right 15% no-repeat #46B6AC;
+}
+#titulo{
+  font-family: Tangerine_Bold;
+  font-size: 60px;
+}
+.top{
+  text-align: center;
+  border-bottom: gray 2px solid;
+}
+.footer{
+  font-family: internet;
+  font-size: 20px;
+  grid-column: 1/3;
+  border-top: gray 2px solid;
+}
+.izquierda{
+  text-align: center;
+}
+.derecha{
+  text-align: center;
+}
+#internetf{
+  font-family: internet;
+  font-size: 15px;
+}
+.derecha{
+  float: left;
+  padding-left: 10px;
+}
+.izquierda{
+  float: right;
+  padding-right: 10px;
+}
